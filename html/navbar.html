@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Bar</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-top{
+        width: 100vw;
+        height: 50px;
+        padding: 0px 50px 0px 50px;
+        background-color: #08c;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-top h4{
+        font-weight: bold;
+        color: white;
+    }
+
+    .navbar-top ul{
+        display: flex;
+    }
+
+    .navbar-top li{
+        margin: 20px;
+        list-style: none;
+    }
+
+    .navbar-top li a:hover{
+        color: rgba(255, 255, 255, 0.486);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .navbar-top li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar-beside{
+        position: relative;
+        color: rebeccapurple;
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="navbar-top">
+            <h4>IDN Training</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+            <h4>Daftar Sekarang</h2>
+        </div>
+
+        <div class="navbar-beside">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
